@@ -13,8 +13,8 @@ dataset = read_csv(url, names=names)
 
 
 array = dataset.values
-X = array[:,0:4]
-y = array[:,4]
+X = array[:,0:6]
+y = array[:,6]
 
 # Transform string values to numbers
 from sklearn.preprocessing import OrdinalEncoder
